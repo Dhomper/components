@@ -160,4 +160,6 @@ var app = angular.module('app', [
 
 .controller('Inicio', function($scope, $routeParams)
 {
+	// $scope.params = $routeParams.module
+	// alert("Hola" + $scope.params.module)
 })

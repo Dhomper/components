@@ -1,0 +1,1247 @@
+<div ng-controller="components.f11" ng-init="init()">
+
+	<div class="container">
+		<header class="header head">
+			<div class="container head-back">
+				<div class="container row head-row-top">
+					<div class="col-md-8 head-col-1 head-title">
+						<strong>BACHILLERATO TECNOLÓGICO Y NIVELES EQUIVALENTES</strong>
+					</div>
+					<div class="col-md-4 head-col-2 head-escolar">
+						<div class="col-md-7 head-col-2-col-1">
+							<p>CICLO ESCOLAR, </p>
+						</div>
+						<div class="col-md-5  head-col-2-col-2">
+							<p class="head-date"> 2020-2021</p>
+						</div>
+					</div>
+				</div>
+				<div class="container row head-row-botton">
+					<div class="col-md-8 head-col-1 head-subtitle">
+						<p>Información del ciclo anterior 2020-2021</p>
+					</div>
+					<div class="col-md-4 head-col-2 head-escolar-911">
+						<strong>911.7BT</strong>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container body-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 d-flex t-format">
+						<div class="col-md-1 t-number">
+							<h2 class="title-format">II. </h2>
+						</div>
+						<div class="col-md-11 t-text">
+							<h2 class="title-format">EXISTENCIA Y APROBADOS</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row row-format row-format_1">
+					<div class="col-md-5 col-size-right">
+						<div class="row">
+							<div class="col-md-1 col-left-text">
+								<strong>1.</strong>
+							</div>
+							<div class="col-md-11 col-right-text">
+								<p class="text-left">Escriba el número de <strong>alumnos existentes en la carrera al término del último periodo escolar del ciclo </strong><strong class="strong-color">2020-2021</strong>. Desglóselos por grado de avance en años*, sexo, con
+									discapacidad, hablantes de lengua indígena y nacidos fuera de México. Además escriba por grado el número de grupos existentes.
+								</p>
+								<p class="row-note text-left">
+									<strong>Nota:</strong> Los alumnos que al inicio del ciclo escolar <strong class="strong-color">2020-2021</strong> reportaron componente básico, deben reportar existencia en el primer grado de la carrera que cursan.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 col-size-left">
+						<table class="table table-format">
+							<thead>
+								<tr>
+									<th scope="col" class="col-middle col-grado">Grado</th>
+									<th scope="col" class="col-normal col-middle col-hombres">Hombres</th>
+									<th scope="col" class="col-normal col-middle col-mujeres">Mujeres</th>
+									<th scope="col" class="col-middle col-total">Total</th>
+									<th scope="col" class="col-normal table-large col-discapacidad">Con discapacidad</th>
+									<th scope="col" class="col-normal table-large col-hablantes">Hablantes de lenguas indígenas</th>
+									<th scope="col" class="col-normal table-large col-nacidos">Nacidos fuera de México</th>
+									<th scope="col" class="col-normal col-botton col-grupos">Grupos</th>
+								</tr>
+							</thead>
+							<tbody class="align-items-center">
+								<tr>
+									<th scope="row" class="row-squares">1o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<p>{{reporte.grado_1.MASCULINO}}</p>
+											<!-- <div class="col-1 body-col S">
+												<p>{{reporte.grado_1.MASCULINO}}</p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div> -->
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">2o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">3o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">4o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">5o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">Total</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="row row-format row-format_2">
+					<div class="col-md-5 col-size-right">
+						<div class="row">
+							<div class="col-md-1 col-left-text">
+								<strong>2.</strong>
+							</div>
+							<div class="col-md-11 col-right-text">
+								<p class="text-left">Escriba el número de <strong>alumnos existentes en la carrera que aprobaron todas las unidades de aprendizaje curricular (asignaturas) al término del último periodo escolar del ciclo </strong><strong class="strong-color">2020-2021</strong>.
+									Desglóselos por grado de avance en años*, sexo, con discapacidad, hablantes de lengua indígena y nacidos fuera de México.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 col-size-left">
+						<table class="table table-format">
+							<thead>
+								<tr>
+									<th scope="col" class="col-middle col-grado">Grado</th>
+									<th scope="col" class="col-normal col-middle col-hombres">Hombres</th>
+									<th scope="col" class="col-normal col-middle col-mujeres">Mujeres</th>
+									<th scope="col" class="col-middle col-total">Total</th>
+									<th scope="col" class="col-normal table-large col-discapacidad">Con discapacidad</th>
+									<th scope="col" class="col-normal table-large col-hablantes">Hablantes de lenguas indígenas</th>
+									<th scope="col" class="col-normal table-large col-nacidos">Nacidos fuera de México</th>
+									<th scope="col" class="col-normal col-botton col-grupos col-invisible">Grupos</th>
+								</tr>
+							</thead>
+							<tbody class="align-items-center">
+								<tr>
+									<th scope="row" class="row-squares">1o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">2o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">3o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">4o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">5o.</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" class="row-squares">Total</th>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+									<td scope="row" class="row-squares">
+										<div class="row body-squares">
+											<div class="col-1 body-col S">
+												<p></p>
+											</div>
+											<div class="col-1 body-col M">
+												<p></p>
+											</div>
+											<div class="col-1 body-col E">
+												<p></p>
+											</div>
+										</div>
+									</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="row row-format row-format_3">
+					<div class="row">
+						<div class="col-md-5 col-size-right">
+							<div class="row">
+								<div class="col-md-1 col-left-text">
+									<p>*</p>
+								</div>
+								<div class="col-md-11 col-right-text">
+									<p class="text-left">Ver tablas de equivalencias del grado de avance en página 9/15</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="container footer-ajust">
+			<div class="row align-items-center ">
+				<div class="col-md-2 footer-text">
+					<strong>CLAVE DEL CENTRO DE TRABAJO</strong>
+				</div>
+				<div class="col-md-10 footer-back">
+					<div class="row"></div>
+					<div class="col-md-5 footer-squares">
+						<div class="row">
+							<div class="col-1 footer-col S ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col M ">
+								<p></p>
+							</div>
+							<div class="col-1 footer-col E ">
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 footer-pages ">
+						<p>Pág. 03 / 14</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+</div>

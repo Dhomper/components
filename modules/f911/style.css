@@ -1,0 +1,588 @@
+p {
+    margin: 0 !important;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    font-size: 16px !important;
+}
+
+.head {
+    background-color: #541935;
+    min-height: 110.15px !important;
+    max-height: 110.15px !important;
+}
+
+.head-back {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 26.5px 16px 2px 29px !important;
+}
+
+.head-row-top {
+    margin-bottom: 2.5px;
+}
+
+.head-title {
+    color: #ffffff;
+    letter-spacing: .26px;
+    font-size: 18px;
+}
+
+.head-escolar {
+    color: #ffffff;
+    letter-spacing: -0.9px;
+    font-size: 18px;
+    font-family: Microsoft Sans Serif;
+}
+
+.head-date {
+    color: #E3C0AD;
+    letter-spacing: -0.6px;
+    padding-left: 5px;
+}
+
+
+/*.head-row-botton {}*/
+
+.head-subtitle {
+    color: #E6C3B0;
+    letter-spacing: 0.1px;
+    font-size: 18.5px;
+    font-style: italic;
+}
+
+.head-escolar-911 {
+    color: #BA955E;
+    font-size: 23px;
+}
+
+.head-col-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.head-col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.head-col-2-col-1 {
+    width: auto !important;
+}
+
+.head-col-2-col-2 {
+    width: auto !important;
+}
+
+
+/*BODY*/
+
+.body-page {
+    max-height: 852.15px !important;
+    min-height: 852.15px !important;
+    padding: 0px 45px !important;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+
+/*.t-format {}*/
+
+.title-format {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+    margin: 2rem 0rem 2rem .2rem;
+    color: #7B1A3D;
+}
+
+.t-number {
+    width: 5.5% !important;
+}
+
+.t-text {
+    width: 94.5% !important;
+}
+
+.row-format {
+    color: #692b48 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.row-format.row-format_1 {
+    margin-bottom: 8.1rem;
+}
+
+.row-format.row-format_2 {
+    margin-bottom: 2.2rem;
+}
+
+.row-format.row-format_3 {
+    margin-bottom: 0rem;
+}
+
+.row-note {
+    padding-top: 20px;
+}
+
+.col-left-text {
+    padding: 0px 0px 0px 15px !important;
+    width: 7% !important;
+}
+
+.col-right-text {
+    padding: 0 28px 0 0 !important;
+    width: 93% !important;
+}
+
+.col-size-left {
+    padding: 4px 0px 0px 0px !important;
+}
+
+
+/*.col-size-right {}*/
+
+.table-format {
+    text-align: center;
+    padding: 0px !important;
+    border-color: transparent !important;
+    color: #692b48 !important;
+    line-height: 1;
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: transparent !important;
+}
+
+.strong-color {
+    color: #cca36a;
+}
+
+.col-grado {
+    padding: 17px 24px 21px 0 !important;
+}
+
+.col-hombres {
+    padding: 17px 8px 21px 8px !important;
+}
+
+.col-mujeres {
+    padding: 17px 14px 21px 14px !important;
+}
+
+.col-total {
+    padding: 17px 35px 21px 35px!important;
+}
+
+.col-discapacidad {
+    padding: 0px 10px 0px 10px !important;
+}
+
+.col-hablantes {
+    padding: 0px 8px 0px 8px !important;
+}
+
+.col-nacidos {
+    padding: 0px 16px 0px 16px !important;
+}
+
+.col-grupos {
+    padding: 5px 0px !important;
+}
+
+.col-normal {
+    font-weight: 500;
+}
+
+.col-middle {
+    vertical-align: middle;
+}
+
+.col-botton {
+    vertical-align: bottom;
+}
+
+.table-large {
+    vertical-align: top;
+}
+
+.row-squares {
+    padding: 0.17rem 0rem !important;
+    vertical-align: middle;
+}
+
+.body-squares {
+    justify-content: center;
+}
+
+.body-col {
+    height: 26px!important;
+    width: 23px !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #692b48;
+    border-left: 0;
+    background-color: #ffffff;
+}
+
+.body-col.S {
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid #692b48;
+}
+
+.body-col.E {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.col-invisible {
+    user-select: none;
+    color: transparent !important;
+    background-color: transparent !important;
+}
+
+
+/*FOOTER*/
+
+.footer-ajust {
+    max-height: 39.15px !important;
+    min-height: 39.15px !important;
+    background-color: #ffffff;
+}
+
+.footer-text {
+    color: #B3966E;
+    letter-spacing: .63px;
+    padding: 0px 0px 0px 30px !important;
+    font-size: 13px;
+    text-align: center;
+    width: 20% !important;
+}
+
+.footer-back {
+    display: flex;
+    padding: 5px;
+    width: 80% !important;
+    background: linear-gradient(to left, #BA9463, #ffffff);
+}
+
+.footer-col {
+    height: 28px;
+    width: 26.3px !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EEE2D2;
+    border-left: 0;
+    background-color: #ffffff;
+}
+
+.footer-squares {
+    margin-left: 20px;
+}
+
+.footer-col.S {
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid #EEE2D2;
+}
+
+.footer-col.E {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.footer-pages {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+/* Responsive Mode*/
+
+@media (max-width: 1400px) {
+    .t-format {
+        width: 100% !important;
+    }
+    .t-number {
+        width: 10% !important;
+    }
+    .t-text {
+        width: 90% !important;
+    }
+    .title-format {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .col-size-left {
+        margin: 0 auto;
+    }
+    .row-format_1 .col-size-left {
+        width: 67% !important;
+    }
+    .row-format_2 .col-size-left {
+        width: 62% !important;
+    }
+    .col-size-right {
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+    .col-left-text {
+        padding: 0 0 0 10px !important;
+    }
+    .col-right-text {
+        padding: 0 10px 0 0 !important;
+    }
+    .body-page {
+        padding: 0 30px !important;
+        max-height: 100% !important;
+        min-height: 100% !important;
+    }
+    .row-format {
+        justify-content: center;
+    }
+    .col-invisible {
+        width: 0% !important;
+        padding: 0 !important;
+        font-size: 0 !important;
+    }
+    .row-format.row-format_1 {
+        margin-bottom: 1rem;
+    }
+    .row-format.row-format_2 {
+        margin-bottom: 1rem;
+    }
+    .row-format.row-format_3 {
+        margin-bottom: 1rem;
+    }
+    .footer-text {
+        width: 24% !important;
+    }
+    .footer-back {
+        width: 76% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .row-format_1 .col-size-left {
+        width: 81% !important;
+    }
+    .row-format_2 .col-size-left {
+        width: 75% !important;
+    }
+    .footer-text {
+        width: 28% !important;
+    }
+    .footer-back {
+        width: 72% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-squares {
+        width: auto !important;
+    }
+    .header {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+    }
+    .head {
+        background-color: #541935;
+        min-height: 100% !important;
+        max-height: 100% !important;
+    }
+    .head-back {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 26.5px 10px 10px 10px !important;
+    }
+    .row-format_1 .col-size-left {
+        width: 95% !important;
+    }
+    .row-format_2 .col-size-left {
+        width: 90% !important;
+    }
+    .table-format {
+        font-size: 15px;
+    }
+    .body-col {
+        height: 20px!important;
+        width: 20px !important;
+    }
+    .body-col.S {
+        border-radius: 5px 0px 0px 5px;
+    }
+    .body-col.E {
+        border-radius: 0px 5px 5px 0px;
+    }
+    .col-grado {
+        padding: 0!important;
+    }
+    .col-hombres {
+        padding: 0!important;
+    }
+    .col-mujeres {
+        padding: 0!important;
+    }
+    .col-total {
+        padding: 0!important;
+    }
+    .col-discapacidad {
+        width: 10%;
+        padding: 0!important;
+    }
+    .col-hablantes {
+        width: 14%;
+        padding: 0!important;
+    }
+    .col-nacidos {
+        width: 10%;
+        padding: 0!important;
+    }
+    .col-grupos {
+        padding: 5px 0 !important;
+    }
+    .footer-text {
+        padding: 0 0 0 10px !important;
+        width: 35% !important;
+    }
+    .footer-back {
+        width: 65% !important;
+    }
+    .footer-col {
+        width: 20px !important;
+    }
+    .footer-col.S {
+        border-radius: 5px 0px 0px 5px;
+    }
+    .footer-col.E {
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .head-back {
+        padding: 26.5px 0px 10px 0 !important;
+    }
+    .head-col-1 {
+        width: 65% !important;
+    }
+    .head-col-2 {
+        width: 35% !important;
+    }
+    .body-page {
+        padding: 0 20px !important;
+    }
+    .table-format {
+        font-size: 12px;
+    }
+    .body-col {
+        font-size: 12px;
+        height: 18px!important;
+        width: 15px !important;
+    }
+    .col-grado {
+        width: auto !important;
+    }
+    .col-normal {
+        width: 16% !important;
+    }
+    .col-total {
+        width: 20% !important;
+    }
+    .footer-text {
+        font-size: 11px;
+        line-height: 1.1;
+        padding: 0 0 0 10px !important;
+        width: 35% !important;
+    }
+    .footer-back {
+        font-size: 13px;
+        width: 65% !important;
+    }
+    .footer-pages {
+        width: 35%;
+        padding-right: 0;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 420px;
+    }
+    .head-col-1 {
+        padding: 0 !important;
+        width: 70% !important;
+    }
+    .head-col-2 {
+        text-align: center;
+        padding: 0 !important;
+        width: 30% !important;
+    }
+    .body-page {
+        padding: 0 !important;
+    }
+    .t-format {
+        padding: 0 !important;
+    }
+    .row-format_1 .col-size-left,
+    .row-format_2 .col-size-left {
+        width: 100% !important;
+    }
+    .col-size-right {
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .table-format {
+        font-size: 11px;
+    }
+    .body-col {
+        font-size: 11px;
+    }
+    .col-grado {
+        width: 0 !important;
+    }
+    .col-normal {
+        width: 15% !important;
+    }
+    .col-total {
+        width: 24% !important;
+    }
+    .footer-text {
+        font-size: 11px;
+        line-height: 1.1;
+        padding: 0 0 0 10px !important;
+        width: 30% !important;
+    }
+    .footer-back {
+        font-size: 14px;
+        width: 70% !important;
+    }
+    .footer-col {
+        width: 17px !important;
+    }
+    .footer-pages {
+        width: 40%;
+        padding-right: 0;
+        font-size: 14px;
+    }
+}
